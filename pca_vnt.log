@@ -1,0 +1,15 @@
+PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
+Options in effect:
+  --bfile vnt
+  --out pca_vnt
+  --pca 20
+
+Hostname: vicentvega2
+Working directory: /home/enrico/articolo_elena/analisi/script
+Start time: Thu Mar 20 10:10:42 2025
+
+Random number seed: 1742465442
+128721 MB RAM detected; reserving 64360 MB for main workspace.
+Error: Failed to open vnt.bed.
+
+End time: Thu Mar 20 10:10:42 2025

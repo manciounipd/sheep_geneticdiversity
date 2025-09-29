@@ -1,0 +1,24 @@
+### Final report in ROW format (for matrix format, there is another software!)
+finrep='Univ_of_Padova_Cecchinato_OVNG50V01_20200706_FinalReport.txt' 
+
+### SNP map (orinal from Illumina)
+snpmap='SNP_Map.txt'      
+
+### Often there are multiple allele codings in the row format files, chose the one you wish on your PED file
+### Options allowed: 'top', 'forward','ab'.
+allele='top'                                
+
+### Position of the SNP ID in the file (usually is the first field, but may change)                                            
+SNPid_pos='1'                               
+
+### Position of the INDIVIDUAL ID in the file (usually is the secodn field)
+INDid_pos='2'                               
+
+### Name of output PED and MAP files
+outname='test_outputfile'                   
+
+### This will be used on the "Fid" column (first column in the PED)
+brdcode='TEST'                              
+
+# Options: ',' (for CSV) / ' ' (for TXT) / '\t' (for TSV)
+sep='\t'                                    
