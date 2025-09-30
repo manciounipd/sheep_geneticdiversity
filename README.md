@@ -1,7 +1,8 @@
 # Genetic diversity Analisys
 
-## FIRST STEP : Genotype processing & merging pipeline
-
+## FIRST STEP 
+## Genotype processing & merging pipeline
+Script `runs.sh`
 ## Overview
 This pipeline converts raw PED/MAP genotype files into PLINK binary format, cleans and harmonizes SNP sets across multiple rounds/datasets, merges them into a single reference panel, updates sample metadata (breed IDs) and copies the final cleaned database to `gooddb/` for downstream analyses.
 
